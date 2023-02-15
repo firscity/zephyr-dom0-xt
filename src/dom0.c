@@ -11,9 +11,5 @@ extern void init_root();
 
 void main(void)
 {
-	/* HACK */
-	char *argv[] = {"", "-d", "1"};
-
 	init_root();
-	domu_create(NULL, 3, argv);
 }
